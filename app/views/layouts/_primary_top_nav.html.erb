@@ -1,4 +1,4 @@
-<header class="flex justify-center w-full pb-6 mx-auto border-b pt-safe-area-6 border-b-white bg-purple-dark dark:bg-[#182027] dark:border-[#182027]">
+<header class="flex justify-center w-full pb-6 mx-auto border-b pt-safe-area-6 border-b-white bg-white dark:bg-[#182027] dark:border-[#182027]">
   <div class="flex px-5 max-w-screen-sm">
     <%= link_to(
       root_path(
@@ -6,7 +6,7 @@
         anchor: session_anchor(current_agenda_session)
       )
     ) do %>
-      <%= inline_svg_tag("main_logo.svg", class: "w-full h-[30px]") %>
+      <%= image_tag("coachcon_logo.png", class: "w-full h-[50px]") %>
     <% end %>
   </div>
 </header>
